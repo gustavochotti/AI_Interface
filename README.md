@@ -40,16 +40,16 @@ Exportar Texto: Salva a resposta como .txt.
 Exportar Áudio: Salva a resposta como .mp3.
 
 ## Estrutura do Código
-gerar_resposta: Gera a resposta da IA para a pergunta inserida.
-nova_pergunta: Limpa os campos de input e output.
-exportar_texto: Salva a resposta em um arquivo .txt com timestamp.
-exportar_audio_async: Função assíncrona que converte a resposta em áudio e salva em um arquivo .mp3.
-exportar_audio: Wrapper para chamar a função assíncrona exportar_audio_async.
+- gerar_resposta: Gera a resposta da IA para a pergunta inserida.
+- nova_pergunta: Limpa os campos de input e output.
+- exportar_texto: Salva a resposta em um arquivo .txt com timestamp.
+- exportar_audio_async: Função assíncrona que converte a resposta em áudio e salva em um arquivo .mp3.
+- exportar_audio: Wrapper para chamar a função assíncrona exportar_audio_async.
 
 ## Observações
-Certifique-se de ter conexão com a internet ao gerar a resposta da IA, pois o processo depende da API do Google.
-Consulte a documentação oficial das bibliotecas usadas para maiores informações sobre personalização de modelos de IA e vozes.
+- Certifique-se de ter conexão com a internet ao gerar a resposta da IA, pois o processo depende da API do Google.
+- Consulte a documentação oficial das bibliotecas usadas para maiores informações sobre personalização de modelos de IA e vozes.
 
 ## Bibliotecas
-https://github.com/rany2/edge-tts
-https://github.com/google-gemini/generative-ai-python
+- https://github.com/rany2/edge-tts
+- https://github.com/google-gemini/generative-ai-python
