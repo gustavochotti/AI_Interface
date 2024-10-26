@@ -8,7 +8,7 @@ import asyncio
 
 # Variáveis importantes
 API_KEY = "YOUR_API_KEY"  # Sua chave API aqui
-AI_MODEL = "gemini-1.5-pro-latest"  # Se deseja, altere o modelo de IA (Verifique os moelos disponíveis executando "models.py")
+AI_MODEL = "gemini-1.5-pro-latest"  # Se desejar, altere o modelo de IA (Verifique os modelos disponíveis executando "models.py")
 VOICE = "pt-BR-FranciscaNeural"  # Altere se quiser outra voz (Vozes disponíveis listadas em "voice_list.txt")
 USER_NAME = "YOUR_NAME_HERE"  # Seu nome aqui
 OUTPUT_TEXT_FILE = f"response_{datetime.now().strftime('%Y%m%d-%H-%M-%S')}.txt"
