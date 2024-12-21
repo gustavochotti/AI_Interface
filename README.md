@@ -25,10 +25,10 @@ pip install edge-tts==6.1.14 google-generativeai==0.8.3
 ## Configuração
 No início do código, substitua as variáveis conforme necessário:
 
-API_KEY: Insira sua chave de API do Google Generative AI.
-AI_MODEL: O modelo de IA a ser usado (ex.: "gemini-1.5-pro-latest").
-VOICE: A voz para a conversão de texto para fala (ex.: "pt-BR-FranciscaNeural").
-USER_NAME: Seu nome, que aparecerá na interface.
+1. API_KEY: Insira sua chave de API do Google Generative AI.
+2. AI_MODEL: O modelo de IA a ser usado (ex.: "gemini-1.5-pro-latest").
+3. VOICE: A voz para a conversão de texto para fala (ex.: "pt-BR-FranciscaNeural").
+4. USER_NAME: Seu nome, que aparecerá na interface.
 
 ## Uso
 Execute o código para abrir a interface.
