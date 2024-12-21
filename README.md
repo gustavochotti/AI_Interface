@@ -31,13 +31,13 @@ No início do código, substitua as variáveis conforme necessário:
 4. USER_NAME: Seu nome, que aparecerá na interface.
 
 ## Uso
-Execute o código "interface.py" para abrir a interface.
-Digite uma pergunta no campo "Input".
-Pressione "Gerar Resposta" para obter a resposta da IA.
-Use os botões para realizar ações adicionais:
-Nova Pergunta: Limpa os campos.
-Exportar Texto: Salva a resposta como .txt.
-Exportar Áudio: Salva a resposta como .mp3.
+1. Execute o código "interface.py" para abrir a interface.
+2. Digite uma pergunta no campo "Input".
+3. Pressione "Gerar Resposta" para obter a resposta da IA.
+4. Use os botões para realizar ações adicionais:
+  - Nova Pergunta: Limpa os campos.
+  - Exportar Texto: Salva a resposta como .txt.
+  - Exportar Áudio: Salva a resposta como .mp3.
 
 ## Estrutura do Código
 - gerar_resposta: Gera a resposta da IA para a pergunta inserida.
