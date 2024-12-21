@@ -36,8 +36,8 @@ No início do código, substitua as variáveis conforme necessário:
 3. Pressione "Gerar Resposta" para obter a resposta da IA.
 4. Use os botões para realizar ações adicionais:
   - Nova Pergunta: Limpa os campos.
-  - Exportar Texto: Salva a resposta como .txt.
-  - Exportar Áudio: Salva a resposta como .mp3.
+  - Exportar Texto: Exporta a resposta para um arquivo .txt.
+  - Exportar Áudio: Exporta a resposta em formato .mp3.
 
 ## Estrutura do Código
 - gerar_resposta: Gera a resposta da IA para a pergunta inserida.
