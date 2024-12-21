@@ -1,9 +1,9 @@
-# AI_Tkinter_Interface
-Interface local para IA Usando o Tkinter
+# AI_Interface
+Interface local para IA
 
-# Interface de IA com Tkinter
+# Interface de IA
 
-Este projeto implementa uma interface gráfica em Python com Tkinter que interage com uma API de IA para gerar respostas a perguntas feitas pelo usuário. As respostas podem ser exportadas como texto (.txt) ou áudio (.mp3).
+Este projeto implementa uma interface gráfica em Python que interage com uma API de IA para gerar respostas a perguntas feitas pelo usuário. As respostas podem ser exportadas como texto (.txt) ou áudio (.mp3).
 
 ## Funcionalidades
 
