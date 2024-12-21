@@ -31,7 +31,7 @@ No início do código, substitua as variáveis conforme necessário:
 4. USER_NAME: Seu nome, que aparecerá na interface.
 
 ## Uso
-Execute o código para abrir a interface.
+Execute o código "interface.py" para abrir a interface.
 Digite uma pergunta no campo "Input".
 Pressione "Gerar Resposta" para obter a resposta da IA.
 Use os botões para realizar ações adicionais:
