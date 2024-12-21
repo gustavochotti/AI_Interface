@@ -1,55 +1,55 @@
 # AI_Interface
-Interface local para IA
+Local interface for AI
 
-# Interface de IA
+# AI Interface
 
-Este projeto implementa uma interface gráfica em Python que interage com uma API de IA para gerar respostas a perguntas feitas pelo usuário. As respostas podem ser exportadas como texto (.txt) ou áudio (.mp3).
+This project implements a graphical interface in Python that interacts with an AI API to generate responses to user questions. The responses can be exported as text (.txt) or audio (.mp3).
 
-## Funcionalidades
+## Features
 
-1. **Gerar Resposta**: Ao inserir uma pergunta no campo "Input" e pressionar o botão "Gerar Resposta", a aplicação obtém uma resposta da IA.
-2. **Nova Pergunta**: Limpa os campos de entrada e saída para permitir uma nova pergunta.
-3. **Exportar Texto**: Salva a resposta gerada em um arquivo `.txt`.
-4. **Exportar Áudio**: Converte a resposta em áudio utilizando a voz configurada e salva como um arquivo `.mp3`.
+1. **Generate Response**: By entering a question in the "Input" field and pressing the "Generate Response" button, the application retrieves an AI-generated response.
+2. **New Question**: Clears the input and output fields to allow a new question.
+3. **Export Text**: Saves the generated response to a `.txt` file.
+4. **Export Audio**: Converts the response to audio using the configured voice and saves it as a `.mp3` file.
 
-## Requisitos
+## Requirements
 
-### Bibliotecas Necessárias
+### Required Libraries
 
-Instale as bibliotecas abaixo usando `pip`:
+Install the following libraries using `pip`:
 
 ```bash
 pip install edge-tts==6.1.14 google-generativeai==0.8.3
 ```
 
-## Configuração
-No início do código, substitua as variáveis conforme necessário:
+## Configuration
+At the beginning of the code, adjust the following variables as needed:
 
-1. API_KEY: Insira sua chave de API do Google Generative AI.
-2. AI_MODEL: O modelo de IA a ser usado (ex.: "gemini-1.5-pro-latest").
-3. VOICE: A voz para a conversão de texto para fala (ex.: "pt-BR-FranciscaNeural").
-4. USER_NAME: Seu nome, que aparecerá na interface.
+1. **API_KEY**: Enter your Google Generative AI API key.
+2. **AI_MODEL**: The AI model to be used (e.g., "gemini-1.5-pro-latest").
+3. **VOICE**: The voice for text-to-speech conversion (e.g., "en-US-JennyNeural").
+4. **USER_NAME**: Your name, which will appear in the interface.
 
-## Uso
-1. Execute o código "interface.py" para abrir a interface.
-2. Digite uma pergunta no campo "Input".
-3. Pressione "Gerar Resposta" para obter a resposta da IA.
-4. Use os botões para realizar ações adicionais:
-  - Nova Pergunta: Limpa os campos.
-  - Exportar Texto: Exporta a resposta para um arquivo .txt.
-  - Exportar Áudio: Exporta a resposta em formato .mp3.
+## Usage
+1. Run the `interface.py` script to open the interface.
+2. Enter a question in the "Input" field.
+3. Press "Generate Response" to get the AI response.
+4. Use the buttons to perform additional actions:
+   - **New Question**: Clears the fields.
+   - **Export Text**: Exports the response to a `.txt` file.
+   - **Export Audio**: Exports the response in `.mp3` format.
 
-## Estrutura do Código
-- gerar_resposta: Gera a resposta da IA para a pergunta inserida.
-- nova_pergunta: Limpa os campos de input e output.
-- exportar_texto: Salva a resposta em um arquivo .txt com timestamp.
-- exportar_audio_async: Função assíncrona que converte a resposta em áudio e salva em um arquivo .mp3.
-- exportar_audio: Wrapper para chamar a função assíncrona exportar_audio_async.
+## Code Structure
+- **generate_response**: Generates the AI response for the entered question.
+- **new_question**: Clears the input and output fields.
+- **export_text**: Saves the response to a `.txt` file with a timestamp.
+- **export_audio_async**: Asynchronous function that converts the response to audio and saves it as a `.mp3` file.
+- **export_audio**: Wrapper function to call the asynchronous `export_audio_async`.
 
-## Observações
-- Certifique-se de ter conexão com a internet ao gerar a resposta da IA, pois o processo depende da API do Google.
-- Consulte a documentação oficial das bibliotecas usadas para maiores informações sobre personalização de modelos de IA e vozes.
+## Notes
+- Ensure you have an internet connection when generating the AI response, as the process depends on the Google API.
+- Refer to the official documentation of the libraries used for more information on customizing AI models and voices.
 
-## Bibliotecas
+## Libraries
 - https://github.com/rany2/edge-tts
 - https://github.com/google-gemini/generative-ai-python
