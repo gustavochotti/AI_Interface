@@ -7,7 +7,7 @@ import asyncio
 
 
 # Important variables
-API_KEY = "YOUR_API_KEY"  # Your API key here
+API_KEY = "YOUR_API_KEY"  # Your Google AI API key here
 AI_MODEL = "gemini-1.5-pro-latest"  # Change the AI model if needed (Check available models by running "models.py")
 VOICE = "en-US-JennyNeural"  # Change this if you want a different voice (Available voices listed in "voice_list.txt")
 USER_NAME = "YOUR_NAME_HERE"  # Your name here
